@@ -1,0 +1,225 @@
+:root{
+    font-family: 'Anuphan', sans-serif;;
+}
+.metricas{
+  height: 10%;
+}
+element {
+    text-align: center;
+  }
+
+.Tela, .home, .about {
+  height: 100vh;
+}
+
+select{
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.errorlist {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+.errorlist {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    border-radius: .25rem;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+.painel{
+	text-align: center;
+  align-content: center;
+  float: left;
+
+}
+
+.painel li {
+  margin:  0 1vw 1vh -2vw;
+  list-style: none;
+  color: #040a07;
+  border:#0f3622 dashed 1px;
+  border-radius: 0%;
+}
+
+.painel a {
+  color: #040a07;
+}
+
+.painel li:hover {
+  font: italic;
+  text-decoration:underline;
+  text-decoration-color: #0f3622;
+}
+
+
+.card{
+  width: 95%;
+  float:right;
+}
+
+.carteira{
+  display: grid;
+  grid-template-columns: 12% auto;
+}
+
+body {
+    margin: auto;
+    height: auto;
+    background-image: linear-gradient(#2f9d66, #f8fbfa);
+}
+
+.output{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#graphs {
+  display: grid;
+  columns: 2;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+p{
+    text-align: center;
+
+}
+.menu{
+    display: flex; /* torna os itens do menu dispostos em uma linha */
+    justify-content: center; /* centraliza o menu horizontalmente */
+    list-style: none; /* remove os marcadores de lista */
+    margin: 0;
+    padding: 0;
+  }
+
+.about{
+    font-size: 20px;
+    margin: 0px 25% 0 25%;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+
+.termos-de-uso{
+    display: grid;
+    grid-template-columns: 40px auto auto;
+}
+
+.lreg{
+
+     margin: 10px;
+  }
+
+.colaboradores{
+    display: flex;
+    justify-content: center;
+
+}
+
+.colaboradores li {
+    margin: 5px 0;
+    list-style: none;
+
+
+}
+  
+.menu li{
+    margin: 0 10px; /* espaçamento entre os itens do menu */
+    list-style: none;
+    float: left;
+
+  }
+  
+.menu a {
+    color: #040a07; /* cor do texto */
+    text-decoration: none; /* remove o sublinhado padrão */
+    font-weight: bold; /* deixa o texto em negrito */
+    padding: 5px 0px; /* espaçamento dentro do link */
+  }
+  
+.menu li:hover {
+    font: italic;
+    text-decoration:underline;
+    text-decoration-color: #0f3622;
+  }
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.DateRangePickerInput{
+  margin-top: 15px;
+}
+
+.DateRangePickerInput, .DateInput {
+  background-color: rgb(0,0,0,0);
+  border-color: rgb(0,0,0,0);
+}
+.DateRangePickerInput_arrow_svg {
+  margin-bottom: 20px;
+}
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input[type="submit"] {
+    background-color: #2f9d66;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+    background-color: #303f9f;
+}

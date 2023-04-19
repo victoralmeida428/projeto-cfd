@@ -1,0 +1,13 @@
+{% load static %}
+<div class="saudacao">
+    <h2>Bem-vindo, {{login}}</h2>
+    <p>Salário: R$ {{salario}}</p>
+</div>
+<div class="carteira">
+    <div class="painel" >
+            <ul>
+                <li><a href="{% url 'dash' %}">Painel</a></li>
+                <li><a href="{%url 'balanco'%}">Balanço</a></li>
+                <li><a href="#">Poupança</a></li>
+            </ul>
+    </div>

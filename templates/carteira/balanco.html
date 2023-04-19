@@ -1,0 +1,15 @@
+{% extends 'financa/base.html' %}
+{% load static %}
+{% block content %}
+{%load plotly_dash%}
+{% include 'partials/_carteira.html' %}
+    <form method="post">
+        {% csrf_token %}
+
+            {{form}}
+
+        <input type="submit" value="Adicionar" style="margin-top: 10px;">
+    </form>
+</div>
+
+{%endblock%}

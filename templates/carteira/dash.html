@@ -1,0 +1,12 @@
+{% extends 'financa/base.html' %}
+{% load static %}
+{% block content %}
+{%load plotly_dash%}
+{% include 'partials/_carteira.html' %}
+
+        <div class="{% plotly_class name='teste' %} card" >
+            {% plotly_app name='teste' ratio=0.75 %}
+        </div>
+    </div>
+
+{% endblock %}
